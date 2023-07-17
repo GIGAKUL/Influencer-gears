@@ -126,11 +126,12 @@ font-weight: 600;
 
 /* ----------------Main Styles ---------------- */
 
-/* ----------------Sponsors Styles ---------------- */
 main{
     width: 1440px;
     margin: 0 auto;
 }
+
+/* ----------------Sponsors Styles ---------------- */
 .sponsors{
     border-top: 1px solid #c0ccdac2  ;
     border-bottom: 1px solid #c0ccdac2 ;
@@ -144,3 +145,5 @@ main{
     justify-content: center;
     gap: 3.75rem;
 }
+
+/* ----------------End of SponsorsStyles ---------------- */

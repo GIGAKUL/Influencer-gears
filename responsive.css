@@ -4,6 +4,7 @@
   * {
     margin: 0;
     padding: 0;
+    box-sizing:border-box ;
     font-size: 12px;
   }
   body {
@@ -44,23 +45,27 @@
   .banner-img img {
     width: 250px;
   }
-  main{
+
+  /* ----------------Main Styles ---------------- */
+
+  main {
     width: auto;
-}
-.sponsors{
+  }
+
+  /* ----------------Sponsors Styles ---------------- */
+
+  .sponsors {
     width: auto;
-    padding: 30px 20px ;
-}
-.sponsor-container{
+    padding: 30px 20px;
+  }
+  .sponsor-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
-}
-.sponsor-container img{
+  }
+  .sponsor-container img {
     width: 70px;
-
-}
+  }
 }
 
 /* ---------------- Tablet Responsive ---------------- */
@@ -69,7 +74,8 @@
   * {
     margin: 0;
     padding: 0;
-    font-size: 12px;
+    box-sizing:border-box ;
+    font-size: 14px;
   }
   body {
     padding: 0 10px;

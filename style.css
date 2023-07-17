@@ -48,6 +48,8 @@ border: none;
 header{
     width: 1726px;
     margin: 0 auto;
+    margin-bottom: 70px;
+
 }
 .bar{
     display: none;
@@ -120,3 +122,25 @@ font-weight: 600;
     width:540px ;
 }
 /* ----------------End of Header Styles ---------------- */
+
+
+/* ----------------Main Styles ---------------- */
+
+/* ----------------Sponsors Styles ---------------- */
+main{
+    width: 1440px;
+    margin: 0 auto;
+}
+.sponsors{
+    border-top: 1px solid #c0ccdac2  ;
+    border-bottom: 1px solid #c0ccdac2 ;
+    width: 1110px;
+    margin: 0 auto;
+    padding: 30px 20px ;
+    margin-bottom: 100px;
+}
+.sponsor-container{
+    display: flex;
+    justify-content: center;
+    gap: 3.75rem;
+}

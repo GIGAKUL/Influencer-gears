@@ -44,6 +44,23 @@
   .banner-img img {
     width: 250px;
   }
+  main{
+    width: auto;
+}
+.sponsors{
+    width: auto;
+    padding: 30px 20px ;
+}
+.sponsor-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.sponsor-container img{
+    width: 70px;
+
+}
 }
 
 /* ---------------- Tablet Responsive ---------------- */

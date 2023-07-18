@@ -4,7 +4,7 @@
   * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box ;
+    box-sizing: border-box;
     font-size: 12px;
   }
   body {
@@ -12,38 +12,59 @@
   }
   header {
     width: auto;
+    text-align: center;
   }
   ul {
     gap: 1.125rem;
     justify-content: center;
   }
+  .bar {
+    display: inline;
+  }
+  .bar i {
+    font-size: 16px;
+  }
+  .mobileone {
+    display: inline;
+  }
+  .mobileone i {
+    font-size: 16px;
+    margin-top: 4px;
+  }
+  .hiddenone {
+    display: none;
+  }
+
   .navbar {
-    flex-direction: column;
     justify-content: center;
-    gap: 18px;
+    align-items: center;
+    gap: 40px;
     margin-top: 25px;
   }
   .navbar h2 {
     text-align: center;
+    font-size: 18px;
   }
 
   .banner-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 50px;
   }
 
   .banner-content h1 {
+    font-size: 2rem;
+
     width: auto;
   }
   .banner-content p {
     width: auto;
   }
   .banner-img {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
   }
   .banner-img img {
-    width: 250px;
+    width: 220px;
   }
 
   /* ----------------Main Styles ---------------- */
@@ -59,14 +80,82 @@
     padding: 30px 20px;
   }
   .sponsor-container {
-    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
   .sponsor-container img {
     width: 70px;
   }
+
+  /* ---------------Collection Styles ---------------- */
+  .collection {
+    margin-bottom: 50px;
+  }
+
+  .collection-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  .seemore {
+    left: 224px;
+    gap: 8px;
+    top: 19px;
+  }
+
+  /* ----------------End ofCollection Styles ---------------- */
+
+  .featured{
+    margin-bottom: 50px;
 }
+
+.featured-container{
+   flex-direction: column;
+}
+.featured-container img{
+    width: 100%;
+
+}
+.featured-content h2{
+    color: #0A0826;
+font-size: 1.7rem;
+font-weight: 700;
+line-height:3.75rem;; 
+}
+.featured-content p{
+    margin: 16px 0;
+ width: auto;
+color: #6C6C6C;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.75rem; 
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
 
 /* ---------------- Tablet Responsive ---------------- */
 
@@ -74,7 +163,7 @@
   * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box ;
+    box-sizing: border-box;
     font-size: 14px;
   }
   body {
@@ -87,6 +176,7 @@
     gap: 1.125rem;
     justify-content: center;
   }
+
   .navbar {
     flex-direction: column;
     justify-content: center;
@@ -120,4 +210,99 @@
   .banner-img img {
     width: 350px;
   }
+  main {
+    width: auto;
+  }
+  /* ----------------Sponsors Styles ---------------- */
+
+  .sponsors {
+    width: auto;
+    padding: 30px 20px;
+  }
+  .sponsor-container {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .sponsor-container img {
+    width: 70px;
+  }
+
+  /* ---------------Collection Styles ---------------- */
+  main {
+    width: auto;
+  }
+  .collection {
+    /* padding: 10px; */
+  }
+
+  .collection-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+
+  .card img {
+    width: 100%;
+  }
+  .lastone {
+    display: none;
+  }
+  .seemore {
+    left: 594px;
+    gap: 8px;
+    top: 12px;
+  }
+
+  /* ----------------End ofCollection Styles ---------------- */
+
+
+
+  .featured{
+    margin-bottom: 50px;
+}
+
+
+.featured-container img{
+    width: 300px;
+
+}
+.featured-content h2{
+    color: #0A0826;
+font-size: 1.7rem;
+font-weight: 700;
+line-height:3.75rem;; 
+}
+.featured-content p{
+    margin: 16px 0;
+ width: 300px;
+color: #6C6C6C;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.75rem; 
+
+}
+
+.btn2{
+  text-align: start;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
